@@ -423,7 +423,7 @@ class Cover extends React.Component {
             <img src="/fromSimone.svg" />
           </div>
           <div className={this.state.started ? "clickedMe" : "clickMe"} onClick={this.startPlayHandler}>
-            <img src="/candy.svg" alt="Click Me" Title="Click Me" />
+            <img src="/candy.png" alt="Click Me" title="Click Me" width="300" height="293" />
             <audio autoPlay loop id="playAudio" ref={x => { this.audio = x }}>
               <source src="/LetItSnow.mp3" />
             </audio>
