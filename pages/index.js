@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Cover from '../components/Cover'
-import Layout from '../components/Layout'
+import Head from 'next/head';
+import Cover from '../components/Cover';
+import Layout from '../components/Layout';
 
 export default function Home() {
   return (
