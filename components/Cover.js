@@ -1,6 +1,5 @@
 import React from 'react';
 import Particles from 'react-tsparticles';
-import Image from 'next/image';
 
 class Cover extends React.Component {
   state = {
@@ -424,14 +423,7 @@ class Cover extends React.Component {
             <img src="/fromSimone.svg" />
           </div>
           <div className={this.state.started ? "clickedMe" : "clickMe"} onClick={this.startPlayHandler}>
-            <Image
-              src="/candy.png"
-              alt="Click Me"
-              width={300}
-              height={293}
-            />
-            {/* <img src="/candy.png" alt="Click Me" title="Click Me" width="300" height="293" /> */}
-
+            <img src="/candy.png" alt="Click Me" title="Click Me" width="300" height="293" />
             <audio autoPlay loop id="playAudio" ref={x => { this.audio = x }}>
               <source src="/LetItSnow.mp3" />
             </audio>
