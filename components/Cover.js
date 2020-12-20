@@ -431,6 +431,7 @@ class Cover extends React.Component {
               height={293}
             />
             {/* <img src="/candy.png" alt="Click Me" title="Click Me" width="300" height="293" /> */}
+
             <audio autoPlay loop id="playAudio" ref={x => { this.audio = x }}>
               <source src="/LetItSnow.mp3" />
             </audio>
