@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Merry Christmas Anna</title>
+        <title>Merry Christmas</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Cover />

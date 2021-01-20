@@ -415,12 +415,12 @@ class Cover extends React.Component {
               <img src="/Christmas.svg" />
             </div>
             <div className="flexLineBreak"></div>
-            <div className={this.state.started ? "coverAnna" : "hidden"}>
-              <img src="/Anna.svg" />
+            <div className={this.state.started ? "coverTo" : "hidden"}>
+              <img src="/to.svg" />
             </div>
           </div>
-          <div className={this.state.started ? "daSimone" : "hidden"}>
-            <img src="/fromSimone.svg" />
+          <div className={this.state.started ? "coverFrom" : "hidden"}>
+            <img src="/from.svg" />
           </div>
           <div className={this.state.started ? "clickedMe" : "clickMe"} onClick={this.startPlayHandler}>
             <img src="/candy.png" alt="Click Me" title="Click Me" width="300" height="293" />

@@ -137,11 +137,11 @@ img {
   }
 }
 
-.coverAnna {
+.coverTo {
   opacity: 0;
-  animation: annaSlidein 1s ease-out 12s forwards;
+  animation: toSlidein 1s ease-out 12s forwards;
 }
-@keyframes annaSlidein {
+@keyframes toSlidein {
   0% {
     transform: translateY(70px);
     opacity: 0;
@@ -152,17 +152,17 @@ img {
   }
 }
 
-.daSimone {
+.coverFrom {
   position: absolute;
   bottom: 0;
   right: 0;
   width: 95vw;
   max-width: 500px;  
   opacity: 0;
-  animation: daSimoneSlidein 1s ease-out 18s forwards;
+  animation: fromSlidein 1s ease-out 18s forwards;
 }
 
-@keyframes daSimoneSlidein {
+@keyframes fromSlidein {
   0% {
     transform: translateY(70px);
     opacity: 0;
